@@ -1,0 +1,11 @@
+.square {
+    width: 500px;
+    height: 400px;
+    background: green;
+    border: 3px solid black;
+    transition: .5s;
+}
+.square.active{
+    background: rgb(0, 77, 128);
+    border-radius: 50%;
+}
